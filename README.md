@@ -70,22 +70,7 @@ Nodes represent topics/notes
 
 Edges represent relationships
 
-📁 Project Structure
-digital-memory-graph/
-│
-├── backend/
-│   ├── server.js
-│   ├── db.js
-│   ├── routes/
-│   │   └── notes.js
-│   └── services/
-│       └── aiService.js
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── GraphView.js
-│   │   └── App.js
+
 🛠️ Setup Instructions
 🔹 Backend Setup
 cd backend
@@ -112,6 +97,15 @@ Backend → Render
 Frontend → Vercel
 
 Database → Neo4j Aura
+🔮 Future Enhancements
+
+📄 PDF upload and parsing
+
+🎤 Voice-based note input
+
+🤖 AI Q&A over stored notes
+
+📅 Smart revision reminders
       ↓
 AI Layer (OpenAI API)
 ⚙️ Tech Stack
