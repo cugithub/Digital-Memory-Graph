@@ -1,0 +1,33 @@
+const axios = require("axios");
+
+async function extractKeywords(content) {
+  try {
+    const response = await axios.post(
+      "https://api.openai.com/v1/chat/completions",
+      {
+        model: "gpt-4o-mini",
+        messages: [
+          {
+            role: "user",
+            content: `Extract 5 important keywords from this text: ${content}`
+          }
+        ]
+      },
+      {
+        headers: {
+          Authorization: `Bearer YOUR_API_KEY`
+        }
+      }
+    );
+
+    const text = response.data.choices[0].message.content;
+
+    return text.split(",").map(k => k.trim());
+
+  } catch (error) {
+    console.log(error);
+    return [];
+  }
+}
+
+module.exports = { extractKeywords };
