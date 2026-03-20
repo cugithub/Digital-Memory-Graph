@@ -1,0 +1,9 @@
+digital-memory-graph/
+ ├── backend/
+ │    ├── server.js
+ │    ├── routes/
+ │    │     └── notes.js
+ │    ├── services/
+ │    │     └── aiService.js
+ │    └── db.js
+ ├── frontend/ (later)
