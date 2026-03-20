@@ -109,4 +109,5 @@ Database → Neo4j Aura
 📅 Smart revision reminders
       ↓
 AI Layer (OpenAI API)
+
 ⚙️ Tech Stack
