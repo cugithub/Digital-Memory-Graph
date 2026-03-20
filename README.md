@@ -97,6 +97,7 @@ Backend → Render
 Frontend → Vercel
 
 Database → Neo4j Aura
+
 🔮 Future Enhancements
 
 📄 PDF upload and parsing
